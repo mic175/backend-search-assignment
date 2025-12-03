@@ -23,11 +23,15 @@ git clone [https://github.com/mic175/backend-search-assignment.git](https://gith
 cd backend-search-assignment
 python -m venv venv
 ./venv/Scripts/activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 **2. Run Locally**
 ```bash
+python app.py
+```
 
-python app.py```
-
-**3. Test the Endpoint Open your browser: http://127.0.0.1:5000/search?q=a&page=1&limit=5**
+**3. Test the Endpoint Open your browser:** 
+```bash
+http://127.0.0.1:5000/search?q=a&page=1&limit=5
+```
